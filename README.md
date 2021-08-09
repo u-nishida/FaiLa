@@ -68,7 +68,12 @@ https://faila.herokuapp.com/
   - @user1 みたいなのがつぶやきに含まれていた場合、そのユーザーのプロフィールへのリンクに自動的に変化するようにしている
   - [該当コード(helper、リンクに使用するためのIDを探すためのメソッド)](https://github.com/nizi24/FaiLa/blob/master/app/helpers/microposts_helper.rb#L7-L18)
   - [該当コード(View、呼び出す側)](https://github.com/nizi24/FaiLa/blob/master/app/views/microposts/_micropost_detail.html.haml#L28-L32)
-- 
+- 投稿に@から始まるユーザIDが含まれているか、返信ボタンから他の投稿へ返信したときには、返信として扱われる
+  - [該当コード(@userみたいなのが含まれるか判定し、メソッドを呼び出す)](https://github.com/nizi24/FaiLa/blob/master/app/controllers/microposts_controller.rb#L17-L25)
+  - [該当コード(リプライを作成するメソッド)](https://github.com/nizi24/FaiLa/blob/master/app/controllers/microposts_controller.rb#L59-L92)
+- いいね、フォローなどはAjaxを使って実装
+  - [該当コード例(いいね)](https://github.com/nizi24/FaiLa/blob/master/app/views/likes/create.js.haml#L1)
+
 
 
 
