@@ -79,9 +79,8 @@ https://faila.herokuapp.com/
   - [該当コード(リプライを作成するメソッド)](https://github.com/nizi24/FaiLa/blob/master/app/controllers/microposts_controller.rb#L59-L92)
 - いいね、フォローなどはAjaxを使って実装
   - [該当コード例(いいね)](https://github.com/nizi24/FaiLa/blob/master/app/views/likes/create.js.haml#L1)
-
-
-
+- 100を超えるテストケースを作成
+  - [該当コード](https://github.com/nizi24/FaiLa/tree/master/spec)
 
 
 ## 👀 Author
