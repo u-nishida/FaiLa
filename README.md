@@ -26,11 +26,17 @@ https://faila.herokuapp.com/
 - ユーザ、投稿を検索する
 - タイムラインで最新の投稿をチェックする
 - Twitter、Googleアカウントを利用してログイン
+- スマートフォン、タブレット端末でもデザインが崩れない
 
 
 #### ・返信機能
 
 <img width="1000" alt="スクリーンショット 2021-08-09 20 49 59" src="https://user-images.githubusercontent.com/62362974/128701830-80f9045b-1dda-4fe3-aee4-1fcc21a4ced9.png">
+
+---
+#### ・レスポンシブデザイン
+
+<img width="300" src="https://user-images.githubusercontent.com/62362974/128711077-e0d9b6cb-f8bd-44c1-a4d3-47176b0dbd55.PNG">
 
 ---
 
@@ -43,7 +49,7 @@ https://faila.herokuapp.com/
 
 ※該当コードへのURLを載せているので是非ご覧ください。
 
-#### 使用技術
+### 使用技術
 | 名称 | 説明 |
 | ---- | ---- |
 | Ruby on Rails | フルスタックフレームワーク |
@@ -58,7 +64,7 @@ https://faila.herokuapp.com/
 - ViewはHamlを使用して記述
 - S3にはアイコン画像、つぶやきに添付された画像を保存
 
-#### 仕様・工夫した点
+### 仕様・工夫した点
 
 ※細かい仕様は[アプリのフッターのヘルプ](https://faila.herokuapp.com/help)に記載しています。  
 
