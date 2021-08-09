@@ -1,32 +1,48 @@
-# README
+# Faila
 
-## App URL
+![recording (2)](https://user-images.githubusercontent.com/62362974/128688691-84f733a3-c76e-4771-a35a-c1312ec1530c.gif)
 
-### **https://faila.herokuapp.com**  
+## :sparkler: Overview
 
-## author
+つぶやきや記事の投稿によって失敗を共有するSNS
 
-- Twitter **https://twitter.com/nizi_24a**
+## :earth_americas: AppURL
 
-<!-- This README would normally document whatever steps are necessary to get the
-application up and running.
+https://faila.herokuapp.com/
 
-Things you may want to cover:
 
-* Ruby version
+## :pencil2: Description
 
-* System dependencies
+- 記事を投稿する
+  - Markdown記法が使える
+  - リアルタイムに変化するプレビュー付き
+- つぶやきを投稿する
+  - 画像を4枚まで付加することができる
+- 他のユーザをフォローする
+- 記事にコメントする
+- つぶやき、記事、コメントにいいねする
+- つぶやきに返信する
+- いいね、フォローなどの通知を受け取る
+- ユーザ、投稿を検索する
+- タイムラインで最新の投稿をチェックする
 
-* Configuration
 
-* Database creation
+#### ・返信機能
 
-* Database initialization
+<img width="1000" alt="スクリーンショット 2021-08-09 20 49 59" src="https://user-images.githubusercontent.com/62362974/128701830-80f9045b-1dda-4fe3-aee4-1fcc21a4ced9.png">
 
-* How to run the test suite
+---
 
-* Services (job queues, cache servers, search engines, etc.)
+#### ・ER
+<img width="1000" src="https://user-images.githubusercontent.com/62362974/128689107-9a7cff26-a10f-42c8-a3f6-bfb623f57b62.png">
 
-* Deployment instructions
+---
 
-* ... -->
+
+
+
+## 👀 Author
+
+- [Twitter](https://twitter.com/nizi_24a)
+- [Qiita](https://qiita.com/nizi24)
+
