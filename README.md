@@ -60,7 +60,7 @@ https://faila.herokuapp.com/
 | Twitter API, Google API | OAuth認証に利用 |
 | Rspec | テスティングフレームワーク |
 
-- 基本的にRailsを使用して開発、部分的にJQuery、Vue.jsを導入
+- 基本的にRailsを使用して開発、部分的にjQuery、Vue.jsを導入
 - ViewはHamlを使用して記述
 - S3にはアイコン画像、つぶやきに添付された画像を保存
 
