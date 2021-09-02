@@ -53,7 +53,7 @@ https://faila.herokuapp.com/
 | 名称 | 説明 |
 | ---- | ---- |
 | Ruby on Rails | フルスタックフレームワーク |
-| JQuery | JavaScriptライブラリ |
+| jQuery | JavaScriptライブラリ |
 | Vue.js | フロントエンドフレームワーク(プレビュー機能に使用) |
 | Heroku | ホスティング |
 | AWS S3 | オンラインストレージ(画像保存用に使用) |
